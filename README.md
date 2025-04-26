@@ -4,6 +4,8 @@
 # 📄   (نسخه‌ی انگلیسی و فارسی) README
 
 ```markdown
+🔗 **لینک دمو:**  
+👉👉👉 DEMO : https://texteditor-zeta.vercel.app/👈👈👈
 # Angular Project with Quill Editor
 
 This project is a standalone Angular application that integrates the powerful **Quill Editor** with **Better Table** and **Image Resize** modules for advanced rich text editing.
