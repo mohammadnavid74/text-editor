@@ -1,0 +1,20 @@
+.output-container table,
+.output-container td,
+.output-container th,
+.output-container img {
+  resize: none !important; /* غیرفعال‌کردن resize */
+  overflow: hidden; /* جلوگیری از اسکرول یا تغییر اندازه */
+  pointer-events: auto; /* برای کلیک فعال بمونه */
+}
+
+/* حذف دستگیره‌های resize در مرورگرها */
+.output-container img,
+.output-container table {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-user-drag: none;
+}

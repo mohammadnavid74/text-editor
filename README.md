@@ -1,59 +1,63 @@
-# Test1
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+---
 
-## Development server
+# 📄 نسخه‌ی انگلیسی README
 
-To start a local development server, run:
+```markdown
+# Angular Project with Quill Editor
 
-```bash
-ng serve
-```
+This project is a standalone Angular application that integrates the powerful **Quill Editor** with **Better Table** and **Image Resize** modules for advanced rich text editing.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Features
 
-## Code scaffolding
+- Using Angular Standalone Components
+- Integrating Quill Editor with advanced capabilities
+- Adding advanced tables with **quill-better-table**
+- Resizing images with **quill-image-resize-module**
+- Saving and displaying HTML content
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Technologies Used
 
-```bash
-ng generate component component-name
-```
+- Angular
+- Quill
+- ngx-quill
+- quill-better-table
+- quill-image-resize-module
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Getting Started
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+First, install the project dependencies:
 
 ```bash
-ng build
-```
+npm install
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+/////////////////////////////////
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+# پروژه Angular با Quill Editor
+
+این پروژه یک اپلیکیشن مستقل (Standalone) ساخته شده با Angular است که ویرایشگر قدرتمند **Quill** را همراه با ماژول‌های **Better Table** و **Image Resize** برای ویرایش پیشرفته متن پیاده‌سازی می‌کند.
+
+## ویژگی‌ها
+
+- استفاده از کامپوننت‌های مستقل (Standalone Components)
+- ادغام Quill Editor با امکانات پیشرفته
+- افزودن جداول پیشرفته با **quill-better-table**
+- تغییر اندازه تصاویر با **quill-image-resize-module**
+- ذخیره و نمایش محتوای HTML
+
+## تکنولوژی‌های استفاده شده
+
+- Angular
+- Quill
+- ngx-quill
+- quill-better-table
+- quill-image-resize-module
+
+## نحوه‌ی اجرا
+
+ابتدا وابستگی‌های پروژه را نصب کنید:
 
 ```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+npm install

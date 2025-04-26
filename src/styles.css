@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+.ql-image-resize {
+  position: absolute;
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: se-resize;
+}
+
+.ql-image-resize--active {
+  display: block;
+}
+.ql-editor table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+.ql-editor table td,
+.ql-editor table th {
+  resize: both;
+  overflow: auto;
+  min-width: 50px;
+  min-height: 30px;
+  border: 1px solid #ccc;
+}
+
+td {
+  justify-items: center;
+}
+/* table {
+  width: 100%;
+} */
+.output-container table,
+.output-container td,
+.output-container th,
+.output-container img {
+  resize: none !important; /* غیرفعال‌کردن resize */
+  overflow: hidden; /* جلوگیری از اسکرول یا تغییر اندازه */
+  pointer-events: auto; /* برای کلیک فعال بمونه */
+}
+
+/* حذف دستگیره‌های resize در مرورگرها */
+.output-container img,
+.output-container table {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-user-drag: none;
+}
+.ck-editor__editable table {
+  width: 100%; /* تنظیم عرض جدول به 100% */
+  table-layout: fixed; /* برای جلوگیری از تغییر اندازه خودکار ستون‌ها */
+}
+
+.ck-editor__editable table td,
+.ck-editor__editable table th {
+  padding: 10px; /* تنظیم فاصله داخلی سلول‌ها */
+  text-align: left; /* تنظیم تراز متن */
+}
+.output-container table,
+.output-container td,
+.output-container th {
+  border: none !important;
+}
+.ql-editor {
+  width: 100% !important;
+}
