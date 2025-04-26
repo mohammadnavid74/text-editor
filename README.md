@@ -1,7 +1,7 @@
 
 ---
 
-# 📄 نسخه‌ی انگلیسی README
+# 📄   (نسخه‌ی انگلیسی و فارسی) README
 
 ```markdown
 # Angular Project with Quill Editor
